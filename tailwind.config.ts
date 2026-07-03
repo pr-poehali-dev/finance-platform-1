@@ -19,6 +19,7 @@ export default {
 		},
 		extend: {
 			colors: {
+				success: 'hsl(var(--success))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -66,9 +67,6 @@ export default {
 			fontFamily: {
 				sans: ['IBM Plex Sans', 'sans-serif'],
 				mono: ['IBM Plex Mono', 'monospace']
-			},
-			colors: {
-				success: 'hsl(var(--success))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
