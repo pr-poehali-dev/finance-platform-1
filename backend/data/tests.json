@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "name": "Получить операции",
+      "method": "GET",
+      "path": "/?entity=operations",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Получить платежи",
+      "method": "GET",
+      "path": "/?entity=payments",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Получить отделы",
+      "method": "GET",
+      "path": "/?entity=departments",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Получить сотрудников",
+      "method": "GET",
+      "path": "/?entity=employees",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Получить трафик",
+      "method": "GET",
+      "path": "/?entity=traffic",
+      "expectedStatus": 200
+    },
+    {
+      "name": "CORS preflight",
+      "method": "OPTIONS",
+      "path": "/?entity=operations",
+      "expectedStatus": 200
+    }
+  ]
+}
